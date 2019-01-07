@@ -1,0 +1,5 @@
+# Generated csv files
+*.csv
+
+# Generated jpg files
+*.jpg

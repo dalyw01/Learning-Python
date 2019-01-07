@@ -18,5 +18,4 @@ def downloadCSV( new_url ):
 
 	fx.close()
 
-
 downloadCSV(free_csv)
