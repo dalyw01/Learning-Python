@@ -3,3 +3,6 @@
 
 # Generated jpg files
 *.jpg
+
+# Generated txt files
+*.txt

@@ -9,7 +9,7 @@ def downloadCSV( new_url ):
 	csv_string = str(csv)
 	lines = csv_string.split("\\n")
 
-	dest_url = r"goo.csv"
+	dest_url = r"googoo.csv"
 
 	fx = open( dest_url , "w")
 
