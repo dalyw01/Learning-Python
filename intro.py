@@ -168,3 +168,72 @@ print("The allowed age for you at " + str(williams_age) + " is " + str(allowedDa
 
 
 print ('- - - - - - - - - - - - - - - - - - -')
+
+def gender(sex='unknown'):
+	if sex is "male":
+		print("Your sex is male!")
+	elif sex is "female":
+		print("Your sex is female!")
+	else:
+		print(sex)
+
+gender("male")
+gender("female")
+gender()
+
+print ('- - - - - - - - - - - - - - - - - - -')
+
+def actionFunction( name="William" , action="pwns" , item="noobs" ):
+	print( name , action , item )
+
+actionFunction()
+actionFunction(name="Brian")
+actionFunction(item="Orc")
+actionFunction(item="Orc",name="Bob")
+
+print ('- - - - - - - - - - - - - - - - - - -')
+
+def addNumbers( *new_number ):
+	total = 0
+	for a in new_number:
+		total += a
+	print(total)
+
+addNumbers(4)
+addNumbers(4,6)
+addNumbers(4,6,4,6,4,6)
+
+print ('- - - - - - - - - - - - - - - - - - -')
+
+def healthCalculator( age , apples_eaten , cigs_smoked ):
+	score = (age + 1010) + (apples_eaten * 3 ) + (cigs_smoked / 2)
+	print(round(score))
+
+wills_data = [27,10,2]
+healthCalculator( wills_data[0] , wills_data[1] , wills_data[2] )
+healthCalculator(*wills_data)
+
+print ('- - - - - - - - - - - - - - - - - - -')
+
+groceries = [ "coco pops" , "apples" , "burgers" , "" ]
+
+if "apples" in groceries:
+	print("Got the apples")
+
+print ('- - - - - - - - - - - - - - - - - - -')
+
+#  Making a hash
+classmates = {
+				'Adam':'A messer' ,
+				'Bob':'A nerd' ,
+				'Carol':'Who?' ,
+				'Diane':'A teachers pet'
+			}
+
+for k,v in classmates.items():
+	print(k)
+	print(v)
+
+
+
+
