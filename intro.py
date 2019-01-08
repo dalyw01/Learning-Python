@@ -72,6 +72,10 @@ print(players)
 players[:] = []
 print(players)
 
+# Delete list
+date,year,age = ["13 May" , 1991 , 27.5]
+print(year)
+
 print ('- - - - - - - - - - - - - - - - - - -')
 
 age = 27
